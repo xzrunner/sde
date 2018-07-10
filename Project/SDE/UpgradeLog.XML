@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SDE">
+</Property><Property Name="解决方案文件" Value="H:\Final\Project\SDE\SDE.sln">
+</Property><Property Name="Date" Value="2011年8月7日">
+</Property><Property Name="Time" Value="19:08">
+</Property></Properties><Event ErrorLevel="1" Project="Adapter" Source="Adapter.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Adapter" Source="Adapter.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Adapter.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Adapter" Source="Adapter.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Adapter" Source="Adapter.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="Algorithms" Source="Algorithms.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Algorithms" Source="Algorithms.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Algorithms.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Algorithms" Source="Algorithms.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Algorithms" Source="Algorithms.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="Attribute" Source="Attribute.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Attribute" Source="Attribute.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Attribute.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Attribute" Source="Attribute.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Attribute" Source="Attribute.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="BasicType" Source="BasicType.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="BasicType" Source="BasicType.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\BasicType.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="BasicType" Source="BasicType.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="BasicType" Source="BasicType.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="DBFeature" Source="DBFeature.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="DBFeature" Source="DBFeature.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\DBFeature.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="DBFeature" Source="DBFeature.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="DBFeature" Source="DBFeature.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="Edit" Source="Edit.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Edit" Source="Edit.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Edit.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Edit" Source="Edit.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Edit" Source="Edit.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="NVDataPublish" Source="NVDataPublish.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="NVDataPublish" Source="NVDataPublish.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\NVDataPublish.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="NVDataPublish" Source="NVDataPublish.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="NVDataPublish" Source="NVDataPublish.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="Render" Source="Render.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Render" Source="Render.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Render.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Render" Source="Render.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Render" Source="Render.vcproj" Description="未转换">
+</Event><Event ErrorLevel="0" Project="Shell" Source="Shell.vcproj" Description="已不再支持对本地 IIS 服务器的 Web 部署。Web 部署生成工具已从项目设置中删除。">
+</Event><Event ErrorLevel="1" Project="Shell" Source="Shell.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Shell" Source="Shell.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Shell.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Shell" Source="Shell.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Shell" Source="Shell.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="SimulateNavigate" Source="SimulateNavigate.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="SimulateNavigate" Source="SimulateNavigate.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\SimulateNavigate.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="SimulateNavigate" Source="SimulateNavigate.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="SimulateNavigate" Source="SimulateNavigate.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="SpatialIndex" Source="SpatialIndex.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="SpatialIndex" Source="SpatialIndex.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\SpatialIndex.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="SpatialIndex" Source="SpatialIndex.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="SpatialIndex" Source="SpatialIndex.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="StorageManager" Source="StorageManager.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="StorageManager" Source="StorageManager.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\StorageManager.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="StorageManager" Source="StorageManager.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="StorageManager" Source="StorageManager.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="Test" Source="Test.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Test" Source="Test.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Test.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Test" Source="Test.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Test" Source="Test.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="Tools" Source="Tools.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Tools" Source="Tools.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Tools.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Tools" Source="Tools.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Tools" Source="Tools.vcproj" Description="未转换">
+</Event><Event ErrorLevel="1" Project="Generalization" Source="Generalization.vcproj" Description="此应用程序已更新，包含了与 Windows Vista 的用户帐户控制(UAC)功能相关的设置。默认情况下，当运行在启用了 UAC 的 Windows Vista 上时，此应用程序被标记为以与启动它的进程相同的权限运行。此标记还禁止应用程序以虚拟化方式运行。您可以从此项目的属性页中更改与 UAC 相关的设置。">
+</Event><Event ErrorLevel="2" Project="Generalization" Source="Generalization.vcproj" Description="未能升级项目文件“H:\Final\Project\SDE\Generalization.vcproj”。请确保该文件存在并且没有写保护。">
+</Event><Event ErrorLevel="2" Project="Generalization" Source="Generalization.vcproj" Description="项目升级失败。">
+</Event><Event ErrorLevel="3" Project="Generalization" Source="Generalization.vcproj" Description="未转换">
+</Event><Event ErrorLevel="0" Project="" Source="SDE.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="SDE.sln" Description="Converted">
+</Event></UpgradeLog>

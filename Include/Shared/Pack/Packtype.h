@@ -1,0 +1,227 @@
+#ifndef IS_GIS_PACK_TYPE_H_
+#define IS_GIS_PACK_TYPE_H_
+
+#include "../../Common/basic_types.h"
+
+namespace IS_GIS{
+
+// reserved value
+const uint_32 PTC_UNKNOWN =			0x00000000;
+const uint_32 PTC_Package = 		0x00800000;
+const uint_32 PTC_vector = 			0x01000000;
+const uint_32 PTC_list = 			0x02000000;
+// PTC: Pack Type Code				0x00000001 - 0x000000ff
+
+const uint_32 PTC_GM_POINT_2D =			0x00000001;
+const uint_32 PTC_GM_POINT_3D =			0x00000002;
+const uint_32 PTC_GM_LINE_STRING_2D =	0x00000003;
+const uint_32 PTC_GM_LINE_STRING_3D =	0x00000004;
+const uint_32 PTC_GM_RING_2D =			0x00000005;
+const uint_32 PTC_GM_RING_3D =			0x00000006;
+const uint_32 PTC_GM_POLYGON_2D =		0x00000007;
+const uint_32 PTC_GM_POLYGON_3D =		0x00000008;
+
+const uint_32 PTC_GM_AGGREGATE_2D =	0x00000010;
+const uint_32 PTC_GM_AGGREGATE_3D = 0x00000011;
+const uint_32 PTC_GM_MULTIPOINT_2D= 0x00000012;
+const uint_32 PTC_GM_MULTIPOINT_3D= 0x00000013;
+
+const uint_32 PTC_GM_MULTICURVE_2D=	0x00000014;
+const uint_32 PTC_GM_MULTICURVE_3D=	0x00000015;
+const uint_32 PTC_GM_MULTISURFACE_2D= 0x00000016;
+const uint_32 PTC_GM_MULTISURFACE_3D= 0x00000017;
+
+const uint_32 PTC_GM_COMPOSITE_CURVE_2D = 0x00000020;
+const uint_32 PTC_GM_COMPOSITE_CURVE_3D = 0x00000021;
+
+const uint_32 PTC_GM_NO_SUCH_OBJECT = 0x00000022;
+
+const uint_32 PTC_TIN_LINESTRING_2D = 0x000000a0 ;
+const uint_32 PTC_TIN_LINESTRING_3D = 0x000000a1 ;
+const uint_32 PTC_TIN_BORDERLOOP_2D = 0x000000a2 ;
+const uint_32 PTC_TIN_BORDERLOOP_3D = 0x000000a3 ;
+const uint_32 PTC_GM_TIN_2D = 0x000000a4 ;
+const uint_32 PTC_GM_TIN_3D = 0x000000a5 ;
+
+const uint_32 PTC_NW_POINT_2D = 0x000000b0 ;
+const uint_32 PTC_NW_POINT_3D = 0x000000b1 ;
+const uint_32 PTC_NW_LINESTRING_2D = 0x000000b2 ;
+const uint_32 PTC_NW_LINESTRING_3D = 0x000000b3 ;
+
+
+const uint_32 PTC_TP_POINT_2D = 0x000000c0 ;
+const uint_32 PTC_TP_POINT_3D = 0x000000c1 ;
+const uint_32 PTC_TP_LINESTRING_2D = 0x000000c2 ;
+const uint_32 PTC_TP_LINESTRING_3D = 0x000000c3 ;
+const uint_32 PTC_TP_POLYGON_2D = 0x000000c4 ;
+const uint_32 PTC_TP_POLYGON_3D = 0x000000c5 ;
+const uint_32 PTC_TP_HE_2D = 0x000000c6 ;
+const uint_32 PTC_TP_HE_3D = 0x000000c7 ;
+const uint_32 PTC_TP_RING_2D = 0x000000c8 ;
+const uint_32 PTC_TP_RING_3D = 0x000000c9 ;
+
+const uint_32 PTC_TEXT_POS_BOX =	0x000000d0;
+const uint_32 PTC_TEXT_POS_POINT =	0x000000d1;
+const uint_32 PTC_TEXT_POS_LINE =	0x000000d2;
+
+const uint_32 PTC_COMMAND =			0x00000100;
+const uint_32 PTC_RESULT =			0x00000101;
+
+//GIS_T
+const uint_32 PTC_T_UNKNOWN =			0x00000300;
+
+const uint_32 PTC_T_ROAD_2D =			0x00000301;
+const uint_32 PTC_T_ROAD_3D =			0x00000302;
+const uint_32 PTC_T_ROADPART_2D =		0x00000303;
+const uint_32 PTC_T_ROADPART_3D =		0x00000304;
+
+const uint_32 PTC_T_POINT_2D =			0x00000305;
+const uint_32 PTC_T_POINT_3D =			0x00000306;
+const uint_32 PTC_T_CURVE_2D =			0x00000307;
+const uint_32 PTC_T_CURVE_3D =			0x00000308;
+const uint_32 PTC_T_CURVESEGMENT_2D =	0x00000309;
+const uint_32 PTC_T_CURVESEGMENT_3D =	0x0000030a;
+const uint_32 PTC_T_CURVEPOINT_2D =		0x0000030b;
+const uint_32 PTC_T_CURVEPOINT_3D =		0x0000030c;
+const uint_32 PTC_T_AGGREGATE_2D =		0x0000030d;
+const uint_32 PTC_T_AGGREGATE_3D =		0x0000030e;
+
+
+const uint_32 PTC_T_LANE_2D =			0x00000310;
+const uint_32 PTC_T_LANE_3D =			0x00000311;
+const uint_32 PTC_T_SCRIBELINE_2D =		0x00000312;
+const uint_32 PTC_T_SCRIBELINE_3D =		0x00000313;
+const uint_32 PTC_T_VIRESCENCEAREA_2D = 0x00000314;
+const uint_32 PTC_T_VIRESCENCEAREA_3D = 0x00000315;
+const uint_32 PTC_T_ROADSHOULDER_2D =	0x00000316;
+const uint_32 PTC_T_ROADSHOULDER_3D =	0x00000317;
+const uint_32 PTC_T_FOOTPATH_2D =		0x00000318;
+const uint_32 PTC_T_FOOTPATH_3D =		0x00000319;
+const uint_32 PTC_T_HANDRAIL_2D =		0x0000031a;
+const uint_32 PTC_T_HANDRAIL_3D =		0x0000031b;
+const uint_32 PTC_T_ROADCOMPONENTCUSTOM_2D = 0x0000031c;
+const uint_32 PTC_T_ROADCOMPONENTCUSTOM_3D = 0x0000031d;
+
+const uint_32 PTC_T_STATICPOINT_2D =	0x0000031e;
+const uint_32 PTC_T_STATICPOINT_3D =	0x0000031f;
+
+const uint_32 PTC_T_RCPOINT_2D =			0x00000320;
+const uint_32 PTC_T_RCPOINT_3D =			0x00000321;
+const uint_32 PTC_T_RCSEGMENT_2D =			0x00000322;
+const uint_32 PTC_T_RCSEGMENT_3D =			0x00000323;
+const uint_32 PTC_T_RCAGGREGATE_2D =		0x00000324;
+const uint_32 PTC_T_RCAGGREGATE_3D =		0x00000325;
+
+const uint_32 PTC_T_ROADEVENT_2D =			0x00000326;
+const uint_32 PTC_T_ROADEVENT_3D =			0x00000327;
+const uint_32 PTC_T_ROADFOG_2D =			0x00000328;
+const uint_32 PTC_T_ROADFOG_3D =			0x00000329;
+const uint_32 PTC_T_ROADREPAIR_2D =			0x0000032a;
+const uint_32 PTC_T_ROADREPAIR_3D =			0x0000032b;
+const uint_32 PTC_T_ROADACCIDENT_2D =		0x0000032c;
+const uint_32 PTC_T_ROADACCIDENT_3D =		0x0000032d;
+const uint_32 PTC_T_ROADCUSTOM_2D =			0x0000032e;
+const uint_32 PTC_T_ROADCUSTOM_3D =			0x0000032f;
+const uint_32 PTC_T_ROADFACILITY_2D =		0x00000330;
+const uint_32 PTC_T_ROADFACILITY_3D =		0x00000331;
+const uint_32 PTC_T_BRIDGE_2D =				0x00000332;
+const uint_32 PTC_T_BRIDGE_3D =				0x00000333;
+const uint_32 PTC_T_TUNNEL_2D =				0x00000334;
+const uint_32 PTC_T_TUNNEL_3D =				0x00000335;
+const uint_32 PTC_T_BLINKPOINT_2D =			0x00000336;
+const uint_32 PTC_T_BLINKPOINT_3D =			0x00000337;
+const uint_32 PTC_T_ROADHOUSE_2D =			0x00000338;
+const uint_32 PTC_T_ROADHOUSE_3D =			0x00000339;
+const uint_32 PTC_T_INSTRUMENT_2D =			0x0000033a;
+const uint_32 PTC_T_INSTRUMENT_3D =			0x0000033b;
+const uint_32 PTC_T_RAMP_2D =				0x0000033c;
+const uint_32 PTC_T_RAMP_3D =				0x0000033d;
+const uint_32 PTC_T_ROADCENTEREXIT_2D =		0x0000033e;
+const uint_32 PTC_T_ROADCENTEREXIT_3D =		0x0000033f;
+const uint_32 PTC_T_CUSTOMFACILITY_2D =		0x00000340;
+const uint_32 PTC_T_CUSTOMFACILITY_3D =		0x00000341;
+
+
+
+
+// CRS
+const uint_32 PTC_CRS_SINGLE	=	0x00003100;
+const uint_32 PTC_CRS_PROJECT	=	0x00003101;
+const uint_32 PTC_CRS_GEOGRAPHY	=	0x00003102;
+const uint_32 PTC_CRS_GENERIC	=	0x00003103;
+const uint_32 PTC_CRS_GEOCENTRIC=	0x00003104;
+
+const uint_32 PTC_CRT_PRJ_GAUSS =		0x00004100;
+const uint_32 PTC_CRT_AFFINE	=		0x00004101;
+const uint_32 PTC_CRT_NOCHANGE	=		0x00004102;
+const uint_32 PTC_CRT_PRJ_MERCATOR =	0x00004103;
+const uint_32 PTC_CRT_PRJ_MERCATOR_TRANSVERSE =	0x00004104;
+const uint_32 PTC_int_64 =			0x00100001;
+const uint_32 PTC_uint_64 =			0x00100002;
+const uint_32 PTC_int_32 =			0x00100003;
+const uint_32 PTC_uint_32 =			0x00100004;
+const uint_32 PTC_byte_8 =			0x00100005;
+const uint_32 PTC_bool_32 =			0x00100006;
+const uint_32 PTC_double =			0x00100007;
+const uint_32 PTC_float =			0x00100008;
+const uint_32 PTC_int_16 =			0x00100009;
+const uint_32 PTC_uint_16 =			0x0010000a;
+const uint_32 PTC_string =			0x0010000b;
+const uint_32 PTC_wstring =			0x0010000c;
+const uint_32 PTC_Pos3D =			0x0010000d;
+const uint_32 PTC_Pos2D =			0x0010000e;
+const uint_32 PTC_Rect2D =			0x0010000f;
+const uint_32 PTC_GO_ID_ARRAY =		0x00100010;
+
+const uint_32 PTC_ATB_MetaItem =	0x00001001;
+const uint_32 PTC_ATB_MetaInfo =	0x00001002;
+const uint_32 PTC_ATB_FieldInfo =	0x00001003;
+const uint_32 PTC_ATB_FieldItem =	0x00001004;
+const uint_32 PTC_ATB_Record =		0x00001005;
+const uint_32 PTC_ATB_RecordSet =	0x00001006;
+
+const uint_32 PTC_ALGORITHM_PATH =	0x00002001;
+const uint_32 PTC_ALGORITHM_POS =	0x00002002;
+const uint_32 PTC_ALGORITHM_CONNECTCOMPONENT =	0x00002003;
+
+const uint_32 PTC_GMSG_DEL_DS = 0x00010001;
+const uint_32 PTC_GMSG_MOD_DS = 0x00010002;
+const uint_32 PTC_GMSG_NEW_DS = 0x00010003;
+const uint_32 PTC_GMSG_MOD_FC = 0x00010011;
+const uint_32 PTC_GMSG_NEW_FC = 0x00010012;
+const uint_32 PTC_GMSG_DEL_FC = 0x00010013;
+const uint_32 PTC_GMSG_MOD_GEO_OBJ = 0x00010021;
+const uint_32 PTC_GMSG_NEW_GEO_OBJ = 0x00010022;
+const uint_32 PTC_GMSG_DEL_GEO_OBJ = 0x00010023;
+const uint_32 PTC_GAUSS_MSG_ITEM = 0x00020001;
+const uint_32 PTC_PERALS_ACK = 0x00030001;
+//const uint_32 PTC_VECTOR_UNKNOWN=	0x01000000;
+//const uint_32 PTC_VECTOR_int_64=	0x01000001;
+
+//for ImagePyramid
+const uint_32 PTC_IMAGE_PYRAMID_IMAGE_BUFFER_ENTRY = 0x00040001;
+const uint_32 PTC_IMAGE_PYRAMID_PYRAMID_CONFIG = 0x00040002;
+//for GridSpaceIndex
+const uint_32 PTC_GRID_SPACE_INDEX_CONFIG = 0x00050001;
+const uint_32 PTC_GRID_SPACE_INDEX_NODE = 0x00050002;
+//for MultiTreeSpaceIndex
+const uint_32 PTC_MULTI_TREE_GRID_SPACE_INDEX_CONFIG = 0x00051001;
+const uint_32 PTC_MULTI_TREE_GRID_SPACE_INDEX_NODE = 0x00051002;
+
+// GDF
+const uint_32 PTC_GDF_S_ROAD_ELEMENT =	0x00060001;
+const uint_32 PTC_GDF_S_JUNCTION =				0x00060002;
+const uint_32 PTC_GDF_C_ROAD =						0x00060011;
+const uint_32 PTC_GDF_C_INTERSECTION =		0x00060012;
+const uint_32 PTC_GDF_C_INTERCHANGE =		0x00060013;
+const uint_32 PTC_GDF_C_ROUNDABOUT =		0x00060014;
+
+
+inline bool isGMPTCType(uint_32 type)
+{
+	return type <= 0x000000ff && type > 0;
+}
+
+} //namespace IS_GIS{
+
+#endif // IS_GIS_PACK_TYPE_H_
